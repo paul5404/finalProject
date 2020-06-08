@@ -4,4 +4,4 @@ This project might be useful to check out the temperature of raspberry pi in vis
 
 What is needed is the raspberry pi and matplotlib using python.
 
-You can get more help through https://projects.raspberrypi.org/en/pro if needed.
+You can get more help through https://projects.raspberrypi.org/en/projects/temperature-log if needed.
