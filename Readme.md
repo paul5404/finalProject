@@ -65,7 +65,7 @@ plt.pause(n)을 이용해서 그래프에 표현할 수 있는 주기를 설정�
 
 ex) ㅁ ㅁ ㅁ ㅁ ㅁ test.sh: 1분마다 실행,  ㅁ/10 ㅁ ㅁ ㅁ ㅁ test.sh: 10분마다 실행..
 
-더 많은 자료: https://happist.com/553442
+더 많은 자료: https://happist.com/553442, https://loveroid.tistory.com/57
                  
 # 4. CSV파일을 웹으로 출력하기(php)
 
