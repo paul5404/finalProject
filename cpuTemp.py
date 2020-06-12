@@ -24,4 +24,6 @@ while True:
     write_temp(temp)
     graph(temp)
     plt.pause(3)
-
+    if(temp > 65):
+        print("Temperature Too high")
+        break
