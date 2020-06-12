@@ -12,8 +12,11 @@ def write_temp(temp):
         log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(temp)))
 
 def graph(temp):
+    plt.title("CPU temperature graph")
     y.append(temp)
+    plt.ylabel("CPU Temperature")
     x.append(time())
+    plt.xlabel("Time")
     plt.clf()
     plt.scatter(x,y)
     plt.plot(x,y)
