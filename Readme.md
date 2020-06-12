@@ -31,7 +31,7 @@ matplotlib
 - 온도 변화를 그래프를 이용해서 시각적으로 보여준다. 참조 [graph.png](https://github.com/paul5404/finalProject/blob/master/graph.png)
 - 그래프
 x축: 시간
-y축: CPU 온도
+- y축: CPU 온도
 
 plt.pause(n)을 이용해서 그래프에 표현할 수 있는 주기를 설정할 수 있다.
 
