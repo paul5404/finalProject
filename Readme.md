@@ -5,7 +5,7 @@
 # 1. 간단한 라즈베리 파이 CPU 온도측정 방법
 
 ## - vcgencmd를 사용 (Video Core Generate Command )
-터미널 창에서 vcgencmd measure_temp를 입력한다. 
+터미널 창에서 **vcgencmd measure_temp**를 입력한다. 
 - 사실 위 명령어는 라즈베리 파이의 GPU온도를 표시해주는 명령어지만 일반적으로 라즈베리 파이의 CPU와 GPU 온도는 약 1'C 정도밖에 차이가 안나기 때문에  GPU 온도로 CPU온도를 충분히 예측할 수 있다.
 
 ## - thermal node 읽기
@@ -15,7 +15,7 @@
 참조 [raspiTemp.sh](https://github.com/paul5404/finalProject/blob/master/raspiTemp.sh) 
 
 # 2. 파이썬과 그래프를 이용한 cpu 온도 변화
-matplotlib 
+matplotlib
 - sudo apt-get install python3-matplotlib
 
 ## 프로그램 실행
@@ -45,22 +45,22 @@ plt.pause(n)을 이용해서 그래프에 표현할 수 있는 주기를 설정�
 예를 들어 새벽 4시에 데이타베이스를 백업 받아 줘라든지, 아침 7시에 서버의 사용량을 리포트하도록 한다든지 등등 아주 편리하게 활용할 수 있는 툴이라고 합니다.
 
 ## crontab 설정하기
-`crontab -e: 크론탭을 실행한다.
- crontab -d: 등록된 크론탭을 삭제한다.
- crontab -l: 현재 등록된 크론탭 리스트가 무엇인지 터미널 상에서 출력한다.
+- crontab -e: 크론탭을 실행한다.
+- crontab -d: 등록된 크론탭을 삭제한다.
+- crontab -l: 현재 등록된 크론탭 리스트가 무엇인지 터미널 상에서 출력한다.
   
- service cron status: 현재 사용중인 크론탭의 전반적인 스탯을 알려준다.
- service cron stop/start(restart) : 크론탭을 중지시키거나/시작(재시작)시켜준다.`
+- service cron status: 현재 사용중인 크론탭의 전반적인 스탯을 알려준다.
+- service cron stop/start(restart) : 크론탭을 중지시키거나/시작(재시작)시켜준다.
 
 ## crontab 설정 규칙
-* * * * * command~
-첫번째 *: 분(0-59)
-두번째 *: 시간(0-23)
-세번째 *: 일(1-31)
-네번째 *: 월(1-12)
-다섯번째 *: 요일(0-6), 일요일 = 0
+ㅁ ㅁ ㅁ ㅁ ㅁ command~ (ㅁ = *)
+- 첫번째 ㅁ: 분(0-59)
+- 두번째 ㅁ: 시간(0-23)
+- 세번째 ㅁ: 일(1-31)
+- 네번째 ㅁ: 월(1-12)
+* 다섯번째 ㅁ: 요일(0-6), 일요일 = 0
 
-ex) * * * * * test.sh: 1분마다 실행,  */10 * * * * test.sh: 10분마다 실행..
+ex) ㅁ ㅁ ㅁ ㅁ ㅁ test.sh: 1분마다 실행,  ㅁ/10 ㅁ ㅁ ㅁ ㅁ test.sh: 10분마다 실행..
 
 더 많은 자료: https://happist.com/553442
                  
