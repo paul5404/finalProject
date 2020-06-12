@@ -29,7 +29,8 @@ matplotlib
 - csv파일은 다른 파일들에 비해서 범용성이 뛰어나서 일반 text파일, excel파일등으로 쉽게 읽어올 수 있으며, php를 이용하여 웹에서의 출력도 가능하다. 
 
 - 온도 변화를 그래프를 이용해서 시각적으로 보여준다. 참조 [graph.png](https://github.com/paul5404/finalProject/blob/master/graph.png)
-- 그래프
+
+## 그래프
 - x축: 시간
 - y축: CPU 온도
 
