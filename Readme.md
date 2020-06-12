@@ -6,7 +6,7 @@
 
 ## - vcgencmd를 사용 (Video Core Generate Command )
 터미널 창에서 vcgencmd measure_temp를 입력한다. 
-- 사실 위 명령어는 라즈베리 파이의 GPU온도를 표시해주는 명령어지만 일반적으로 라즈베리 파이의 CPU와 GPU 온도는 약 1'C 정도밖에 차이가 안나기 때문에  GPU 온도로 CPU온도를 충분히 예측할 수 있다.`
+- 사실 위 명령어는 라즈베리 파이의 GPU온도를 표시해주는 명령어지만 일반적으로 라즈베리 파이의 CPU와 GPU 온도는 약 1'C 정도밖에 차이가 안나기 때문에  GPU 온도로 CPU온도를 충분히 예측할 수 있다.
 
 ## - thermal node 읽기
 **cat /sys/class/thermal/thermal_zone0/temp**을 입력한다. 
@@ -18,7 +18,7 @@
 matplotlib 
 - sudo apt-get install python3-matplotlib
 
-## - 프로그램 실행
+## 프로그램 실행
 - cpu_temp.csv파일을 생성하여 측정 온도값을 이 파일에 지속적으로 저장시킨다.
 
 - 온도가 65도를 넘어가면 더 이상 저장하지 않고 종료시킨다.
