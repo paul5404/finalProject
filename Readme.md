@@ -74,8 +74,8 @@ ex) ㅁ ㅁ ㅁ ㅁ ㅁ test.sh: 1분마다 실행,  ㅁ/10 ㅁ ㅁ ㅁ ㅁ test
                  
 # 4. CSV파일을 웹으로 출력하기(php)
 - nginx 종료, apache실행
-sudo systemctl stop nginx
-sudo service apache2 restart
+ * sudo systemctl stop nginx
+ * sudo service apache2 restart
 
 - csv파일을 다루기 위한 기본함수
  * fputcsv(): csv파일을 write할 때 사용
