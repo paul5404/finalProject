@@ -14,7 +14,7 @@
 **cat /sys/class/thermal/thermal_zone0/temp**을 입력한다. 
 라즈베리 파이 커널의 thermal node에 자동적으로 CPU온도가 기록되는데 이 값을 불러와서 온도를 알 수 있다.
 
-참조 [raspiTemp.sh](https://github.com/paul5404/finalProject/blob/master/raspiTemp.sh) 
+참조 [raspiTemp.sh](https://github.com/paul5404/finalProject/blob/master/raspiTemp.sh) [cpuTemp.php](https://github.com/paul5404/finalProject/blob/master/cpuTemp.php)
 
 # 2. 파이썬과 그래프를 이용한 cpu 온도 변화
 matplotlib
