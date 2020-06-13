@@ -86,9 +86,7 @@ sudo service apache2 restart
 - php파일과 csv파일을 /var/www/html에 복사한 후, 웹을 실행시켜준다.
 
 참조) 
-http://b1ix.net/70
-https://yaku.tistory.com/entry/csv-파일-저장-읽기
-http://betterphp.co.uk/
+http://b1ix.net/70  https://yaku.tistory.com/entry/csv-파일-저장-읽기   http://betterphp.co.uk/
 
 ## 개선방향
 - 현재 상황에서 cpu온도를 조절할 수 있는 장치가 방열판밖에 없었기 때문에 쿨링 팬과 같은 외부적인 부품들을 이용하여 실제로 cpu온도가 낮아지는 것을 구체적으로 관찰할 수도 있을 것이다.
