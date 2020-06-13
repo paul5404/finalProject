@@ -69,8 +69,21 @@ ex) ㅁ ㅁ ㅁ ㅁ ㅁ test.sh: 1분마다 실행,  ㅁ/10 ㅁ ㅁ ㅁ ㅁ test
 더 많은 자료: https://happist.com/553442, https://loveroid.tistory.com/57
                  
 # 4. CSV파일을 웹으로 출력하기(php)
+- nginx 종료, apache실행
+sudo systemctl stop nginx
+sudo service apache2 restart
 
+- csv파일을 다루기 위한 기본함수
+fputcsv(): csv파일을 write할 때 사용
+fgetcsv(): csv파일을 read할 때 사용
 
+- 기본 원리
+ 1. 파일을 연다 (fopen 함수 사용)
+ 1. array를 하나 선언한다. (CSV파일은 콤마로 이루어진 파일)
+ 1. csv 파일을 한줄씩 읽어와서 array에 대입한다.
+ 1. array를 출력한다.
+
+- php파일과 csv파일을 /var/www/html에 복사한 후, 웹을 실행시켜준다.
 
 ## 개선방향
 - 현재 상황에서 cpu온도를 조절할 수 있는 장치가 방열판밖에 없었기 때문에 쿨링 팬과 같은 외부적인 부품들을 이용하여 실제로 cpu온도가 낮아지는 것을 구체적으로 관찰할 수도 있을 것이다.
