@@ -51,7 +51,8 @@ plt.pause(n)을 이용해서 그래프에 표현할 수 있는 주기를 설정�
 - crontab -e: 크론탭을 실행한다.
 - crontab -r: 등록된 크론탭을 삭제한다.
 - crontab -l: 현재 등록된 크론탭 리스트가 무엇인지 터미널 상에서 출력한다.
-  
+- @reboot python3 /home/pi..(경로) 파일명(cpuTemp.py)
+
 - service cron status: 현재 사용중인 크론탭의 전반적인 스탯을 알려준다.
 - service cron stop/start(restart) : 크론탭을 중지시키거나/시작(재시작)시켜준다.
 
