@@ -74,8 +74,8 @@ sudo systemctl stop nginx
 sudo service apache2 restart
 
 - csv파일을 다루기 위한 기본함수
-fputcsv(): csv파일을 write할 때 사용
-fgetcsv(): csv파일을 read할 때 사용
+ * fputcsv(): csv파일을 write할 때 사용
+ * fgetcsv(): csv파일을 read할 때 사용
 
 - 기본 원리
  1. 파일을 연다 (fopen 함수 사용)
