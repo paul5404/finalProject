@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>Display of csv file on Web page using php</h1>
 
 <?php
+
+print("Display of csv file on Web using php);
+
+header("Content-Type: text/plain");
 
 $fp = fopen("cpu_temp.csv","r");
 
@@ -19,5 +18,3 @@ print_r($arr);
 
 ?>
 
-</body>
-</html>
