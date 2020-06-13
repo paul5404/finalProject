@@ -49,7 +49,7 @@ plt.pause(n)을 이용해서 그래프에 표현할 수 있는 주기를 설정�
 
 ## crontab 설정하기
 - crontab -e: 크론탭을 실행한다.
-- crontab -d: 등록된 크론탭을 삭제한다.
+- crontab -r: 등록된 크론탭을 삭제한다.
 - crontab -l: 현재 등록된 크론탭 리스트가 무엇인지 터미널 상에서 출력한다.
   
 - service cron status: 현재 사용중인 크론탭의 전반적인 스탯을 알려준다.
