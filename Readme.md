@@ -88,6 +88,7 @@ ex) ㅁ ㅁ ㅁ ㅁ ㅁ test.sh: 1분마다 실행,  ㅁ/10 ㅁ ㅁ ㅁ ㅁ test
  1. array를 출력한다.
 
 - php파일과 csv파일을 /var/www/html에 복사한 후, 웹을 실행시켜준다.
+- [csv파일](https://github.com/paul5404/finalProject/blob/master/cpu_temp.csv)
 
 참조) 
 http://b1ix.net/70  https://yaku.tistory.com/entry/csv-파일-저장-읽기   http://betterphp.co.uk/
