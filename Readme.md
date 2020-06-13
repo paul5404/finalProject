@@ -20,7 +20,11 @@
 참조 [raspiTemp.sh](https://github.com/paul5404/finalProject/blob/master/raspiTemp.sh) [cpuTemp.php](https://github.com/paul5404/finalProject/blob/master/cpuTemp.php)
 
 # 2. 파이썬과 그래프를 이용한 cpu 온도 변화
-matplotlib
+## 프로그램 설치
+xrdp: 라즈베리파이 원격 제어를 통한 GUI환경
+- sudo apt-get install xrdp
+
+matplotlib: 파이썬 그래프함수 제공
 - sudo apt-get install python3-matplotlib
 
 ## 프로그램 실행
