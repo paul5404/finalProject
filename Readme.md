@@ -55,7 +55,6 @@ matplotlib: 파이썬 그래프함수 제공
 - crontab -e: 크론탭을 실행한다.
 - crontab -r: 등록된 크론탭을 삭제한다.
 - crontab -l: 현재 등록된 크론탭 리스트가 무엇인지 터미널 상에서 출력한다.
-- @reboot python3 /home/pi..(경로) 파일명(cpuTemp.py)
 
 - service cron status: 현재 사용중인 크론탭의 전반적인 스탯을 알려준다.
 - service cron stop/start(restart) : 크론탭을 중지시키거나/시작(재시작)시켜준다.
@@ -101,4 +100,5 @@ http://b1ix.net/70  https://yaku.tistory.com/entry/csv-파일-저장-읽기   ht
 
 ## 내가 기여한 것
 - CSV파일을 php를 이용하여 웹에서 출력
-- crontab을 이용한 출력값 자동 제어하는 방법
+- crontab을 이용하여 csv파일에 데이터 저장을 자동 제어
+
