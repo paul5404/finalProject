@@ -5,7 +5,7 @@
 이 프로젝트는 라즈베리 파이의 **cpu온도**를 측정하고, 이를 출력할 수 있는 다양한 방법들을 
 소개해보고자합니다. 일반적으로 라즈베리파이가 데스크탑, 노트북에 비해 저전력을 사용하지만 보통의 컴퓨터와 마찬가지로 과다한 작업을 하게될 경우 발열이 발생합니다. 모든 전자기기가 그렇듯 발열이 과도하게 발생하면(평균 65~70'C) 성능저하 현상이 발생하며 더 나아가 프로세스가 멈출 수도 있습니다. 아래의 방법들을 통해 cpu 과다 발열을 효과적으로 예방할 수 있습니다. 
 
-프로젝트 참조: https://projects.raspberrypi.org/en/projects/temperature-log
+[프로젝트 출처](https://projects.raspberrypi.org/en/projects/temperature-log)
 
 # 1. 간단한 라즈베리 파이 CPU 온도측정 방법
 
@@ -90,7 +90,7 @@ ex) ㅁ ㅁ ㅁ ㅁ ㅁ test.sh: 1분마다 실행,  ㅁ/10 ㅁ ㅁ ㅁ ㅁ test
 - [csv파일](https://github.com/paul5404/finalProject/blob/master/cpu_temp.csv)
 
 참조) 
-http://b1ix.net/70  https://yaku.tistory.com/entry/csv-파일-저장-읽기   http://betterphp.co.uk/
+http://b1ix.net/70, https://yaku.tistory.com/entry/csv-파일-저장-읽기, http://betterphp.co.uk/
 
 ## 개선방향
 - 현재 상황에서 cpu온도를 조절할 수 있는 장치가 방열판밖에 없었기 때문에 쿨링팬 설치나 GPIO와 LED를 이용해서 과열발생시 LED가 켜지게 하는 기능 등과 같은 외부적인 부품들을 이용하여 cpu온도를 조절할 수 있을 것이다.
@@ -101,4 +101,3 @@ http://b1ix.net/70  https://yaku.tistory.com/entry/csv-파일-저장-읽기   ht
 ## 내가 기여한 것
 - CSV파일을 php를 이용하여 웹에서 출력
 - crontab을 이용하여 csv파일에 데이터 저장을 자동 제어
-
